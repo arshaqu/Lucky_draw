@@ -6,11 +6,11 @@ let selectedNumbers = [];
 
 // Define ranges
 const ranges = [
-    { min: 1, max: 1000 },
-    { min: 1001, max: 2000 },
-    { min: 2001, max: 3000 },
-    { min: 1, max: 3000 },     // fallback range
-    { min: 1, max: 3000 }      // fallback range
+    { min: 1, max: 30000 },
+    { min: 1001, max: 30000 },
+    { min: 2001, max: 30000 },
+    { min: 1, max: 30000 },     // fallback range
+    { min: 1, max: 30000 }      // fallback range
 ];
 
 function getRandomFromRange(min, max) {
